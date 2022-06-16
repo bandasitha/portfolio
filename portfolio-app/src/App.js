@@ -16,14 +16,15 @@ const theme = {
 }
 
 function App() {
+
   return (
     <ThemeProvider theme={theme}>
-    <>
-      <GlobalStyles />
-      <Header />
-      <NavLinks />
-      <Footer />
-    </>
+      <>
+        <GlobalStyles />
+        <Header />
+        <NavLinks />
+        <Footer />
+      </>
     </ThemeProvider>
   );
 }
